@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Lush green field under a clear blue sky, representing healthy agriculture.",
+      "imageUrl": "https://images.unsplash.com/photo-1509218541462-aa68e407d0ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxncmVlbiUyMGZpZWxkfGVufDB8fHx8MTc2OTQ5NjIwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green field"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Profile picture of a smiling farmer, Maria S.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBzbWlsaW5nfGVufDB8fHx8MTc2OTQ5NTY2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person smiling"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Profile picture of a farmer, John D., in a wheat field.",
+      "imageUrl": "https://images.unsplash.com/photo-1672491016924-e6f5ae7df66c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW4lMjBmYXJtZXJ8ZW58MHx8fHwxNzY5NTk2NTg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man farmer"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Profile picture of a researcher, Dr. Emily R., in a lab coat.",
+      "imageUrl": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBzY2llbnRpc3R8ZW58MHx8fHwxNzY5NTkxMTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman scientist"
+    }
+  ]
 }
