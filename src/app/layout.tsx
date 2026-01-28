@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'FertilAIze',
+  title: 'CropCare',
   description: 'AI-powered fertilizer recommendations for smart farming.',
 };
 

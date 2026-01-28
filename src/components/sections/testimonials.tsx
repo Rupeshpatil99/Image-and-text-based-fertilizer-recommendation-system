@@ -15,7 +15,7 @@ const testimonials = [
     id: "testimonial-1",
     name: "Maria S.",
     title: "Family Farmer",
-    quote: "FertilAIze revolutionized how we manage our soil. The recommendations are spot-on, and we've seen a 20% increase in yield this season. It's like having an agronomist in your pocket!",
+    quote: "CropCare revolutionized how we manage our soil. The recommendations are spot-on, and we've seen a 20% increase in yield this season. It's like having an agronomist in your pocket!",
   },
   {
     id: "testimonial-2",
@@ -27,7 +27,7 @@ const testimonials = [
     id: "testimonial-3",
     name: "Dr. Emily R.",
     title: "Agricultural Researcher",
-    quote: "A powerful tool for modern agriculture. The data-driven approach of FertilAIze aligns with sustainable farming practices, helping farmers optimize nutrient use and minimize environmental impact.",
+    quote: "A powerful tool for modern agriculture. The data-driven approach of CropCare aligns with sustainable farming practices, helping farmers optimize nutrient use and minimize environmental impact.",
   },
 ];
 
@@ -38,7 +38,7 @@ export default function Testimonials() {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold font-headline sm:text-4xl">Trusted by Growers and Experts</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Hear what others are saying about FertilAIze.
+            Hear what others are saying about CropCare.
           </p>
         </div>
         <Carousel
