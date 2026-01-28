@@ -1,7 +1,7 @@
 'use client';
 
-import { useEffect, useState, useRef } from 'react';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useEffect, useState, useRef, useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import Image from 'next/image';
 import { getAiRecommendations, type RecommendationResult } from '@/app/actions';
 import { useToast } from '@/hooks/use-toast';
@@ -25,7 +25,7 @@ const initialState: {
 };
 
 export default function RecommendationEngine() {
-  const [state, formAction] = useFormState(getAiRecommendations, initialState);
+  const [state, formAction] = useActionState(getAiRecommendations, initialState);
   const { toast } = useToast();
   const [imagePreview, setImagePreview] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
